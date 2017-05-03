@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { ItemService } from "./item/item.service";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
+import { NativeScriptI18nModule } from "nativescript-i18n/angular";
 
 @NgModule({
     bootstrap: [
@@ -13,6 +14,7 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     ],
     imports: [
         NativeScriptModule,
+        NativeScriptI18nModule,
         AppRoutingModule
     ],
     declarations: [

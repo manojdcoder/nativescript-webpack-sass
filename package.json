@@ -7,6 +7,9 @@
     "id": "org.nativescript.webpackSass",
     "tns-android": {
       "version": "3.0.0-rc.1"
+    },
+    "tns-ios": {
+      "version": "3.0.0"
     }
   },
   "dependencies": {
@@ -20,6 +23,7 @@
     "@angular/platform-browser-dynamic": "4.0.0",
     "@angular/router": "4.0.0",
     "nativescript-angular": "rc",
+    "nativescript-i18n": "^0.1.6",
     "nativescript-theme-core": "~1.0.2",
     "reflect-metadata": "~0.1.8",
     "rxjs": "~5.2.0",
